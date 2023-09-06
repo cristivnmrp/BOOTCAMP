@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+    </head>
+    <body>
+        <!-- Títulos y subtítulos h1 - h6 -->
+        <h1> Esta es la sección de contacto </h1>
+        <a href="../index.html"> Llévame al index </a>
+        <form>
+            <fieldset>
+                <legend>Formulario de registro</legend>
+                    <div>
+                        <label for="nombreUsuario"> Nombre de usuario: </label>
+                        <input type="text" name="nombreUsuario" id="nombreUsuario">
+                    </div>
+                    <div>
+                        <label for="apellidoUsuario"> Apellido de usuario: </label>
+                        <input type="text" name="apellidoUsuario" id="apellidoUsuario">
+                    </div>
+                    <div>
+                        <label for="password"> Password: </label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div>
+                        <label for="pais"> País</label>
+                        <select name="pais" id="pais">
+                            <option value="cl"> Chile </option>
+                            <option value="mx"> México </option>
+                            <option value="us"> USA </option>
+                            <option value="ca"> Canadá </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento"> Fecha de nacimiento: </label>
+                        <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                    </div>
+                    <div>
+                        <label for="edad"> Edad: </label>
+                        <input type="number" name="edad" id="edad">
+                    </div>
+                    <h3> Selecciona tu sexo: </h3>
+                    <div>
+                        <label for="masculino"> Masculino: </label>
+                        <input type="radio" name="genero" id="masculino" value="masculino">
+                        <label for="femenino"> Femenino: </label>
+                        <input type="radio" name="genero" id="femenino" value="femenino">
+                        <label for="otro"> Otro: </label>
+                        <input type="radio" name="genero" id="otro" value="otro">
+                    </div>
+                    <h3> ¿Cuáles lenguajes de programación quieres aprender? </h3>
+                    <div>
+                        <input type="checkbox" name="html" id="lenguajes" value="html">
+                        <label for="html"> HTML </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="html" id="lenguajes" value="css">
+                        <label for="css"> CSS </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="html" id="lenguajes" value="javascript">
+                        <label for="javascript"> JavasScript </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="html" id="lenguajes" value="csharp">
+                        <label for="csharp"> C# </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="html" id="lenguajes" value="python">
+                        <label for="python"> Python</label>
+                    </div>
+                    <div>
+                        <label for="comentario"> Déjanos un comentario: </label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" id="cancelar" name="cancelar" value="cancelar">
+                        <button type="submit" id="enviar">enviar</button>
+                    </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
